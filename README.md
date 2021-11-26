@@ -1,0 +1,1 @@
+A compilation of Projects created practing Javascript Basics.
