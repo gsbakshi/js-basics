@@ -1,0 +1,1 @@
+Index for the compilation of JS Projects that I created to practice and improve my understanding of javascript.

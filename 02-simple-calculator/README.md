@@ -1,0 +1,1 @@
+A simple calculator created to practice js basics such as operators, functions, control statements and manipulating dom events.
