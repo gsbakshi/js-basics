@@ -5,10 +5,8 @@ let logEntries = [];
 
 const getEnteredValue = () => {
     const value = userInput.value;
-    if (value === '') {
+    if (isNan(value)) {
         return parseInt(0);
-    // } else if (typeof value !== 'number') {
-    //     return;
     } else {
         return parseInt(userInput.value);
     }
