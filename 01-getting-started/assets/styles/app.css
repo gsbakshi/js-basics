@@ -121,22 +121,23 @@ section {
   margin-bottom: 0;
 }
 
-#instructor-info {
+#about-info {
   display: flex;
   align-items: center;
   border-bottom: 2px solid #ff0055;
   padding-bottom: 1rem;
 }
 
-#instructor-info img {
-  width: 5rem;
-  height: 5rem;
+#about-info img {
+  width: 4rem;
+  height: 4rem;
+  padding: 12px;
   border-radius: 50%;
   object-fit: cover;
-  border: 1px solid #ccc;
+  border: 1px solid rgba(204, 204, 204, 0.6);
 }
 
-#instructor-info ul {
+#about-info ul {
   list-style: none;
   margin: 0 0 0 1rem;
   padding: 0;
