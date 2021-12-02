@@ -4,8 +4,8 @@ let storedCalculation = '';
 let logEntries = [];
 
 const getEnteredValue = () => {
-    const value = userInput.value;
-    if (isNan(value)) {
+    let value = userInput.value;
+    if (isNaN(value)) {
         return parseInt(0);
     } else {
         return parseInt(userInput.value);
